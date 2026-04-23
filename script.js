@@ -1,4 +1,4 @@
-// 1–25 функции
+
 
 function square(n) { return n*n; }
 function isDivisibleBy3(n) { return n%3===0; }
@@ -56,7 +56,6 @@ function getValues(obj){ return Object.values(obj); }
 function addProperty(obj,k,v){ obj[k]=v; return obj; }
 function removeProperty(obj,k){ delete obj[k]; return obj; }
 
-// DOM 26–30
 function changeColor(){
   document.getElementById("text").style.color="red";
 }
@@ -75,6 +74,5 @@ function addItem(){
   li.textContent=value;
   document.getElementById("list").appendChild(li);
 
-  // очистка
   document.getElementById("item").value="";
 }
